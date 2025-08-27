@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>Home Page</title>
+    <style>
+      main {
+        position: relative;
+        height: 100%;
+      }
+      body {
+        background: linear-gradient(
+          to left,
+          rgb(250, 205, 122),
+          rgb(110, 110, 163),
+          rgb(185, 212, 212)
+        );
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+      }
+      .swiper {
+        width: 85%;
+        height: auto;
+         padding: 20px 0;
+      }
+      .swiper-slide {
+      text-align: center;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+      }
+      .swiper-slide img {
+     max-width: 100%;
+  height: 250px;
+  object-fit: contain; 
+  border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 m-0">
+      <div class="container-fluid p-0 m-0">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link active text-light" aria-current="page" href="#"
+              >Home</a
+            >
+            <a class="nav-link text-light" href="about.html" id="about"
+              >About</a
+            >
+            <a class="nav-link text-light" href="products.html">Products</a>
+            <a class="nav-link text-light" href="AddProduct.html"
+              >Add Product</a
+            >
+            <a class="nav-link text-light" href="index.html">Log out</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <h2 class="p-2 m-2 text-center">Shop Electronics Devices With Alexa</h2>
+    <main>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="apple.jpg" /></div>
+          <div class="swiper-slide"><img src="iphone.jpg" /></div>
+          <div class="swiper-slide"><img src="earpodes.jpg" /></div>
+          <div class="swiper-slide"><img src="silver.jpg" /></div>
+          <div class="swiper-slide"><img src="images.jpeg" /></div>
+          <div class="swiper-slide"><img src="iPhone-in-water.jpg" /></div>
+          <div class="swiper-slide"><img src="images (1).jpeg" /></div>
+          <div class="swiper-slide"><img src="watches.jpg" /></div>
+          <div class="swiper-slide"><img src="wathes2.jpg" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: { el: ".swiper-pagination", clickable: true },
+        });
+      </script>
+    </main>
+    <script src="main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+

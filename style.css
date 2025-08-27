@@ -1,0 +1,169 @@
+
+#log1{
+    color: transparent;
+    background: linear-gradient(to right ,rgb(0, 0, 0),rgb(255, 148, 239));
+    background-clip: text;
+    position: relative;
+    bottom:20px;
+}
+#log1::after{
+    content: " ";
+    background:linear-gradient(to right,rgb(43, 43, 43),rgb(253, 247, 247));
+    position: absolute;
+    width:90px;
+    height:3px;
+    left:210px;
+    bottom: 0px;
+}
+
+#form1{
+    padding:50px !important; 
+     /* border: 3px solid rgb(19, 3, 33);  */
+     margin: 70px !important; 
+     margin-left: 25% !important; 
+    background:linear-gradient(to top,rgb(4, 1, 21),rgb(234, 173, 229));  
+    border-radius: 10px;
+
+}
+#sbmt1{
+    background-color: #3a3a3a;
+    border: none;
+}
+#bodylogin{
+    background-image: url('https://www.sstg.co.za/wp-content/uploads/knowledge-management-600x338px.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-nav a{
+    padding: 20px !important;
+}
+.navbar-nav{
+    margin: 0 !important;
+}
+body,html{
+    height: 80%;
+}
+
+main {
+  height: 100vh;   
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+#navbarNavAltMarkup{
+    background-color:#3a3a3a ;
+}
+#about1{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(214, 211, 211);
+    margin: 40px 10px;
+}
+#abouttitle{
+   position: relative;
+}
+#abouttitle::after{
+    content: " ";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background: linear-gradient(to right,black,gray);
+    left:43%;
+    bottom: 0px;
+    
+}
+@keyframes scaling {
+    from{
+        transform: translateY(15px);
+    }
+    to{
+        transform: translateY(-15px);
+    }
+}
+#img3{
+    animation-name: scaling;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#footeraboutr{
+    background-color: rgb(230, 228, 228);
+    color:grey;
+    display: flex;
+    padding:20px;
+    justify-content: space-around;
+} 
+h4 a{
+        color:gray;
+
+}
+#newseltter1:focus{
+    box-shadow: 3px 3px 3px 7px gray;
+}
+#adv1{
+    background: linear-gradient(to left,gray,transparent);
+    padding:20px;
+    margin: 20px;
+}
+#adv1 h1{
+    color:transparent;
+    background: linear-gradient(to right,rgb(63, 6, 79),rgb(228, 104, 202));
+    background-clip: text;
+    
+}
+.title1{
+    position: relative;
+    display: inline-block;
+}
+.title1:hover::after{
+    content: " ";
+    background: linear-gradient(to right,rgb(63, 12, 67),rgb(255, 99, 226));
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 150px;
+    height: 3px;
+     display: inline-block;
+
+}
+h2 i{
+    position: fixed !important;
+    right: 10px !important;
+    top:10px !important;
+    /* background-color: rgb(225, 218, 218); */
+}
+
+
+.mybtn1:hover{
+background-color: blueviolet !important;
+filter:brightness(120%) !important;
+}
+.mybtn2:hover{
+    background-color: red !important;
+    filter: brightness(120%);
+}
+#finalform{
+    background: linear-gradient(to left,rgb(255, 208, 120),rgb(255, 157, 240),rgb(213, 255, 255));
+    width:50%;
+    position: relative;
+    left:20%;
+    margin: 10px 20px;
+    padding:100px; 
+    border-radius: 20px;
+}
+#add1{
+    background: linear-gradient(to right,rgb(65, 16, 110),rgb(255, 116, 211));
+    color:transparent;
+    background-clip: text;
+}
+#body2{
+    background-image: url('collaborate.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#body1{
+    gap:110px !important;
+}
